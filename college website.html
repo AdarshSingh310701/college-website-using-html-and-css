@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Hello</title>
+        <style>
+            .button {
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            
+            .button1 {background-color: #4CAF50;} /* Green */
+            .button2 {background-color: #008CBA;} /* Blue */
+            </style>
+    </head>
+    <body bgcolor="lightblue">
+        <center>
+        <h1>GHRCE</h1>
+        <p>An autonomous institute</p>
+        <img src="OIP (8).jpg" alt="logo" width="100" height="100"></center>
+        <form action="/action_page.php">
+        <p>Select Branch</p>
+        <input type="radio" id="cse" name="branch" value="cse">
+        <label for="cse">CSE</label><br>
+        <input type="radio" id="mechanical" name="branch" value="mechanical">
+        <label for="mechanical">Mechanical</label><br>
+        <input type="radio" id="ai/ml" name="branch" value="ai/ml">
+        <label for="ai/ml">AI/ML</label><br>
+        <input type="radio" id="etc" name="branch" value="etc">
+        <label for="etc">ETC</label><br>
+        <br>
+        <p>Year</p>
+        <input type="radio" id="year1" name="year" value="I">
+        <label for="year1">I</label><br>
+        <input type="radio" id="year2" name="year" value="II">
+        <label for="year2">II</label><br>
+        <input type="radio" id="year3" name="year" value="III">
+        <label for="year3">III</label><br>
+        <input type="radio" id="year4" name="year" value="IV">
+        <label for="year4">IV</label><br>
+        <br>
+        <p>Section</p>
+        <input type="radio" id="sec1" name="section" value="A">
+        <label for="sec1">A</label><br>
+        <input type="radio" id="sec2" name="section" value="B">
+        <label for="sec2">B</label><br>
+        <input type="radio" id="sec3" name="section" value="C">
+        <label for="sec3">C</label><br>
+        <center>
+        <button class="button button1" type="button" onclick="alert('submitted successfully')">Submit</button></center>
+        
+    </form>
+</body>
+</html>
